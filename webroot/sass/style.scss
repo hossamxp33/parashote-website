@@ -1,0 +1,31 @@
+/*
+    Primary Sass File where Every File included in
+*/
+
+
+/*
+        Include Reset File From Bases Folder
+*/
+
+@import 'bases/reset';
+
+@import 'layouts/header';
+
+@import 'layouts/sidemenu';
+
+@import 'layouts/main';
+
+@import 'layouts/mobile';
+
+@import 'layouts/product';
+
+@import 'layouts/sideMobile';
+
+@import 'layouts/addStore';
+
+@import 'layouts/login';
+
+body{
+    background: $body-background;
+    font-family: 'Cairo', sans-serif;
+}

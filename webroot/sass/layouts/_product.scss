@@ -1,0 +1,201 @@
+/* Start Product Section */
+.product-main {
+    .main {
+        padding: 10px 0 !important;
+        .store-title {
+            margin-bottom: 15px;
+        }
+        .store-title {
+            span{
+                font-weight: bold;
+            }
+        }
+        .border-right,.border-left {
+            margin-top: 11px;
+            height: 2px;
+            background: #830157;
+            position: relative;
+            span {
+                position: absolute;
+                left: 0;
+                top: -7px;
+                height: 15px;
+                width: 15px;
+                background: #830157;
+                transform: rotate(45deg);
+            }
+        }
+        .border-right{
+            span{
+                left:0
+            }
+        } 
+        .border-left{
+            margin-left: -3px;
+            span{
+                right:0
+            }
+        }
+        #notification {
+            background: #fff;
+            border: 1px solid #bbb;
+            margin: 10px 4px 5px;
+            .notification-img {
+                padding: 5px 5px 0;
+                img {
+                    width: 36px;
+                    height: 36px;
+                }
+            }
+            .notification-msg {
+                padding: 11px 0;
+                margin-right: -28px;
+                font-size: 12px;
+                color: #b77f93;
+            }
+            .notification-button{
+                button {
+                    background: #ec466a;
+                    color: #fff;
+                    margin-left: -20px;
+                    font-size: 10px;
+                    margin-top: 10px;
+                    padding: 3px 18px;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+            
+        }
+        #productList {
+            margin: 0 -7px !important;
+            .product3 {
+                width: 322px !important;
+                .product-title {
+                    margin-top: 0px !important;
+                }
+                .product-img {
+                    border-bottom: 1px solid #ddd;
+                    padding: 10px 40px !important;
+                    position: relative;
+                    .fa {
+                        position: absolute;
+                        top: 40px;
+                    }
+                    .fa-chevron-left {
+                        left: -35px;
+                    }
+                    .fa-chevron-right {
+                        right: -35px;
+                    }
+                }
+                .product-price-shipping{
+                    span{
+                        &:last-child{
+                            margin-right: -4px !important;
+                        }
+                    }
+                }
+                .product-rate {
+                    border-bottom: none !important;
+                    img {
+                        margin: 6px 45px 6px 0 !important;
+                    }
+                }
+            }
+            .product2 {
+                width: 322px !important;
+                .product-title {
+                    margin-top: 7px !important;
+                }
+                .col-lg-8 {
+                    border-right: 1px solid #ddd;
+                }
+                .product-rate{
+                    img {
+                        margin: 6px -5px 6px 0 !important;
+                    }
+                }
+                .product-price-shipping {
+                    padding-top: 9px;
+                    span{
+                        &:last-child{
+                            margin-right: 38px !important;
+                        }
+                    }
+                }
+                .buy-btn {
+                    margin-top: 15px;
+                    padding-top: 3px;
+                    border-top: 1px solid #ddd;
+                }
+            }
+            .product {
+                background: #fff;
+                margin-right: 11px;
+                width: 155px;
+                float: right;
+                border: 1px solid #aaa;
+                color: #333;
+                padding-bottom: 4px;
+                margin-bottom: 10px;
+                .product-img {
+                    padding: 10px 0;
+                    img {
+                        height: 80px;
+                        width: 45px;
+                        margin: 0 auto;
+                    }
+                }
+                .product-rate {
+                    border-bottom: 1px solid #eee;
+                    img {
+                        width: 50px;
+                        margin: 6px 30px 6px 0;
+                    }
+                    span {
+                        font-size: 10px;
+                    }
+                }
+                .product-title {
+                    font-size: 12px;
+                    padding: 3px 0;
+                    margin-top: 123px;
+                    .product-price-shipping{
+                        span{
+                            &:first-child{
+                                font-size: 12px;
+                            }
+                            &:last-child{
+                                font-size: 7px;
+                                padding: 1px 4px;
+                                background: #f5c914;
+                                border-radius: 8px;
+                                margin-right: 6px;
+                            }
+                        }
+                    }
+                }
+                .buy-btn{
+                    button {
+                        background: #de4a6a;
+                        color: #fff;
+                        border: none;
+                        font-size: 10px;
+                        padding: 3px 15px;
+                        border-radius: 10px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+.logo-preview {
+    margin-bottom: 30px;
+}
+.logo-preview img {
+    width: 120px;
+    height: 70px;
+}
+/* End Product Section */

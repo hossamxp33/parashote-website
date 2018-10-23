@@ -1,0 +1,40 @@
+/* Start Media Query */
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    /*navbar*/
+
+    .navbar-header{width: 104% !important}
+    /* Login */
+    .login-section .panel-body{
+        padding-left: 15px
+    } 
+    /* Confirm Password tab  User Page */
+    .user .confirm-content button {margin-top: 20px}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    /*navbar*/
+
+    .navbar-header{width: 104% !important}
+    /* Login */
+    .login-section .panel-body{
+        padding-left: 15px
+    } 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Home Tab User Page*/
+    .user .user-club .points,
+     .user .user-club .my-points,
+     .user .user-club .new-user{min-height: 211px}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Home Tab User Page*/
+    .user .user-club .points,
+     .user .user-club .my-points,
+     .user .user-club .new-user{min-height: 211px}
+}

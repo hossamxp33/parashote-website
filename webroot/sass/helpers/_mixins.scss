@@ -1,0 +1,21 @@
+/*
+    #####  File specified for (MIXINS) used in project #####
+*/
+
+
+/*  Padding mixin   */
+
+@mixin padding($padds...) {
+    @each $padd in $padds {
+        padding-#{nth($padd,1)}:#{nth($padd,2)}px;
+    }
+}
+
+
+/*    Border Mixin   */
+//border(direction  value in px  color)
+@mixin border($style...) {
+    @each $direction in $style {
+        border-#{nth($direction,1)}:#{nth($direction,2)}px solid #{nth($direction,3)};
+    }
+}

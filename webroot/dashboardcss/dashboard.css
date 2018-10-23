@@ -1,0 +1,41 @@
+@font-face { font-family: 'JF Flat regular'; src: url('../JF\ Flat\ regular.otf'); }
+* {font-family: 'JF Flat regular';color: #8c8c8c}
+body {padding-bottom: 400px;}
+hr {background-color: black;}
+.bg-lighter{background-color: #dddddd;}
+.bg-yellow {background: #f5db60;}
+nav {height: 70px;}
+.navbar_logo {max-width: 3rem}
+.navbar_logo:hover {cursor: pointer}
+.profile_menu_img {width: 20px; display: inline-block; padding: auto 03px;}
+.dropdown-item:hover {cursor: pointer}
+#main_sideBar {height: 70px;}
+.card {width: 23%;}
+#customers_card {background-color: #85c976}
+#owners_card {background-color: #1e74eb}
+#orders_card {background-color: #f1a80b}
+#budget_card {background-color: #0bc4e0}
+/*radial progress bar*/
+.svg_bkg {width: 400px; height: 400px; position: relative; display: flex; justify-content: center; align-items: center;}
+.svg_bkg_text {font-size: 700%}
+svg {position: absolute; z-index: 5; -webkit-animation-name: radial_progress; -webkit-animation-duration: 4s; animation-name: radial_progress; animation-duration: 4s;}
+@keyframes radial_progress {
+    50%  {stroke: #000}
+}
+#googleMap{width:100%;height:500px;}
+#map_icon_customer, #map_icon_owner, #map_icon_customer2, #map_icon_owner2 {width: 30px;}
+.map_button {width: 200px;}
+.table_menu_btn {width: 30px;}
+.table_input_fields {max-width: 100px; border: 01px solid #dddddd; border-radius: 05px;}
+table {width: 100%}
+tr:nth-child(even) {background-color: #f2f2f2;}
+thead > tr > th {padding: 35px}
+th, tr, td { padding: 12px;}
+tr:hover {background-color: #f5db60}
+#user_profile_area {background-color: #000; color: #fff}
+#user_profile_image {width: 75px;}
+#dashboard_user_logout:hover ,#dashboard_user_edit:hover ,#dashboard_user_profile:hover  {cursor: pointer;}
+#main_page_icon {width: 30px;}
+#dashboard_main_page {border: 01px solid #dddddd;}
+#dashboard_main_page:hover {background-color: #f5db60; cursor: pointer; border: 01px solid #dddddd;}
+#side_bar {height: 100%;position: fixed; top: 0; right: 0; background-color: #fff}

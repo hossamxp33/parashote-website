@@ -1,0 +1,44 @@
+/*
+        ### START header file ###
+*/
+
+
+/*
+        Include Varaibles
+*/
+
+@import 'helpers/variables';
+
+/*
+        Include Mixins 
+*/
+
+@import 'helpers/mixins';
+header {
+    background: $primary-Color;
+    color: $font-Color;
+    border-bottom:1px solid lighten($font-Color,60%);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    .logo{
+        h3{
+            padding: 10px 0;
+        }
+    }
+    .publish{
+        padding: 3px 60px;
+        margin: 24px 0 24px 40px;
+    }
+    .step{
+        background: #1edc78 !important;
+        transition: background .5s ease-in-out;
+        z-index: 3;
+        &::before{
+            background: #1edc78 !important;
+            transition: width .5s ease-in-out;
+            z-index: 2;
+        }
+    }
+}

@@ -1,0 +1,126 @@
+/* Start Register */
+#addStore {
+    ul{
+        div{
+            border-bottom: 1px solid #ddd;
+            
+        }
+        ul{
+            border-bottom: none !important;
+            li{
+                padding: 0 !important;
+            }    
+        }
+    }
+    h3{
+        font-size: 20px;
+        padding: 10px 50px;
+    }
+    .form {
+        margin-bottom: 20px;
+    }
+    .btn {
+        padding: 6px 25px;
+        i {
+            margin-right: 25px;
+        }
+    }
+    .white-section {
+        background: #fff;
+        padding-top: 80px;
+        .selectedStrucuture-img {
+            width: 250px;
+            height: 200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+    }
+    .gray-section {
+        background: #f2f1ef;
+        position: relative;
+        .form {
+            position: absolute;
+            width: 500px;
+            padding: 45px;
+            background: #fff;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -13%);
+            z-index: 99;
+            border: 1px solid #dddddd;
+        }
+    }
+    .finish-section {
+        width: 640px;
+        margin: 100px auto 0;
+        .finish-img {
+            padding: 25px 0 5px;
+            img {
+                width: 150px;
+                height: 150px;
+              }
+          }
+          
+      }
+      .last-section-description {
+            h2{
+            margin-bottom: 20px;
+            }
+        }
+      .dashboard {
+        margin-top: 20px;
+      }
+}
+
+  
+  #steps {
+    position: relative;
+    li {
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        background: #cbcbcb;
+        text-align: center;
+        border-radius: 50%;
+        color: #fff;
+        margin-top: 22px;
+        position: relative;
+        margin-left: 175px;
+        z-index: 4;
+        &::after{
+            position: absolute;
+            top: 25px;
+            right: -38px;
+            color: #333;
+            width: 100px;
+        }
+        &:first-child{
+            &::after{
+                content: "اختيار الهيكل";
+            }
+        }
+        &:nth-child(2){
+            &::after{
+                content: "انشاء حساب";
+            }
+        }
+        &:nth-child(3){
+            &::after{
+                content: "انهاء";
+            }
+        }
+        &:not(:first-child){
+            &::before{
+                content: '';
+                position: absolute;
+                top: 10px;
+                right: -178px;
+                width: 178px;
+                height: 2px;
+                background: #cbcbcb;
+                z-index: 2;
+            }
+        }
+      }
+  }
+  /* End Register */

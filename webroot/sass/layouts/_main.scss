@@ -1,0 +1,129 @@
+/*
+          ###  Start Main  ###           
+*/
+.col-md-2 {
+    width: 15%;
+}
+.content {
+    position: relative;
+    padding-top: 77px;
+    main {
+        position: relative;
+        margin-right: 190px;
+        .section-title{
+            margin-bottom: 40px;
+            margin-top: 40px;
+            border-right: 6px solid #00a1f1;
+            border-top: 1px solid #ddd;
+            border-left: 1px solid #6d5050;
+            border-bottom: 1px solid #ddd;
+            border-right: 6px solid #00a1f1;
+        }
+        .form {
+            padding: 40px 10px;
+            background: #e6e6e6;
+        }
+    
+        .section{
+            position: absolute;
+            top: 0;
+            transform: translate(890px);
+            transition: transform .5s ease-in-out;
+            z-index: 1;
+            .custom-height{
+                height: 300px;
+                width: 100%;
+                cursor: pointer;
+                border: 3px solid #aaa;
+                transition: transform .5s ease-in-out
+            }
+            .clicked-structure{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .selectedOption{
+        transform: translateX(0px) !important;
+    }
+    .bold{font-weight: bold}
+    
+    .colorpicker{
+        right: 335px !important;
+        top: 242px !important;
+        z-index: 99 !important;
+    }
+    .form-horizontal {
+        margin: 0;
+    }
+    .ui-switcher {
+        height: 30px;
+        width: 70px;
+        border-radius: 14px;
+        &::before{
+            font-size: 14px;
+            top: 9px;
+        }
+        &::after{
+            height: 26px;
+            width: 26px;
+        }
+    }
+    .ui-switcher[aria-checked=true]{
+        &::after{
+            left: 40px;
+        }
+    }
+}
+.loading-app-icon-preview {
+    margin: 20px 34px;
+    display: inline-block;
+    div {
+        width: 100px;
+        margin: 0 12px;
+        float: right;
+        img {
+            height: 140px;
+        }
+        
+    }
+}
+.app-icon-preview,
+        .app-commerical-register-preview {
+            width: 100px;
+            min-height: 100px;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            img {
+                width: 100%;
+                height: 100px;
+            }
+        }
+.panel-group {
+    margin-top: 100px;
+  }
+  
+  .saveMsg {
+    padding: 5px 55px;
+    background: #008f0057;
+    float: left;
+    margin: 22px;
+    border-radius: 15px;
+    color: #fff;
+  }
+  
+  .wickedpicker {
+    z-index: 99;
+    height: 160px;
+  }
+  
+  #firstSplash,
+  #secondSplash,
+  #thirdSplash,
+  #fourthSplash {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  
+

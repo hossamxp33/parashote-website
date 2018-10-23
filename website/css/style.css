@@ -1,0 +1,435 @@
+/*
+    Login 24/6/2018
+*/
+
+/* Start MY FrameWork */
+
+@font-face{
+    font-family: 'MyFont';
+    src:url('../font/Din/DIN-REGULAR.woff') format('woff') /* Pretty Modern Browsers*/
+}
+body{font-family: myFont;overflow-x: hidden !important}
+ul{list-style: none}
+p{line-height: 1.7}
+section{ padding: 3% 0}
+section h2{background:#eee;color:#333}
+section  h2 span{
+    background: #333;
+    display: inline-block;
+    padding: 4px 13px;
+    color: #fff;
+    margin-left: 30px
+}
+a{border: none}
+.green-btn{
+    border-color: #FF8C00;
+    color:#FF8C00;
+    background: #fff;
+    padding-left:40px;
+    padding-right:40px;
+    transition: color .5s ease-in-out , background .5s ease-in-out
+}
+.green-btn:hover{background: #79b530;color:#fff}
+.border:not(:last-child){border-left: 1px solid #e6e6e6}
+/* End MY FrameWork */
+
+/* Start Social Icons */
+.social-icons{background-color: #747474;padding-top: 10px;padding-bottom: 10px}
+.social-icons ul{float: left;margin:0}
+.social-icons ul li{
+    display: inline-block;
+    float: right;
+    padding:7px;
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px
+}
+.social-icons ul li a{color:#fff;font-size: 17px}
+/* End Social Icons */
+
+/* Start Index Page */
+
+/* Start NavBar */
+.navbar{min-height: 80px}
+.navbar .navbar-default{border-radius: 0 !important}
+.navbar .navbar-header{float: left;}
+.navbar .navbar-brand{float: left;}
+.navbar .navbar-brand img{width: 55px}
+.navbar .navbar-nav{padding: 17px}
+.navbar .navbar-nav li>a{font-weight: bold}
+.navbar .navbar-nav li ul a{font-weight: normal}
+.nav .open>a, 
+.nav .open>a:focus, 
+.nav .open>a:hover{background: none !important}
+.navbar-toggle {margin-top: 28px;border: none;float: right;}
+.navbar-toggle .icon-bar:nth(even){background: #333!important; width: 30px !important}
+/* Start Slider Section */
+.slide-show{background:#f3f3f3;border:2px solid #a0a0a0;padding:0 20px}
+.carousel-indicators{position: static;padding: 20px 10px 20px 20px;margin-right: 0 !important}
+.carousel-indicators li{
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    text-indent:0 !important;
+    border-radius:0 !important;
+    padding: 25px;
+    margin-bottom: 10px;
+    color: #333;
+    background: #fff;
+    text-align: right;
+    font-size:17px
+}
+.carousel-indicators .active{margin-bottom: 10px;border:1px solid #FF8C00;color:#FF8C00}
+.carousel .carousel-inner{padding:0;border-right: 2px solid #a0a0a0}
+.carousel .item{background:url('../img/slider/slider-bg.jpg') no-repeat;background-size: cover;height: 450px}
+.carousel .carousel-caption{position: static}
+.carousel .carousel-caption h1{color:#ff8c00}
+.carousel .carousel-caption p{
+    color:#333;
+    padding:50px 10px;
+    text-shadow: none;
+    font-size: 16px
+}
+.carousel .item img{width:100%;float: left;margin:7%}
+/* Start About Section */
+.about-us .about-icon{margin-bottom: 20px}
+.about-us .about-icon img{width: 130px;border-radius: 50%}
+.about-us .icon-number span{font-weight: bold;font-size: 20px}
+.about-us .icon-title{margin-bottom: 20px}
+.about-us .icon-title span{font-weight: bold;font-size: 16px;color: #aaa}
+
+/* Start Facilities , Problem Solving  & Learning Section */
+.facilities{background: rgba(1, 180, 185, 0.05);padding: 80px 0}
+.facilities h2,
+.problem-solving h2,
+.learning-videos h2{
+    color:#333;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+    background:transparent
+}
+.facilities h2::before,
+.problem-solving h2::before,
+.learning-videos h2::before{
+    content:"";
+    position: absolute;
+    width:80px;
+    height: 3px;
+    background: #01b4b9;
+    border-radius: 10px;
+    bottom: 0;
+    right: 0;
+}
+.facilities button,
+.problem-solving button,
+.learning-videos button{background: #01b4b9;color:#fff;padding:10px 80px;}
+.facility {margin-bottom: 80px}
+.facility h3{color: #333}
+.facility p{color:#aaa}
+/* Start Learning Videos */
+.learning-videos{background: rgba(1, 180, 185, 0.05)}
+/* Start Full Features */
+.full-features{padding: 80px 0}
+.full-features .full-feature-icon{padding: 10px}
+.full-features i{font-size: 17px;color:#ff8c00}
+.full-features p{color:#aaa}
+/* End Index Page */
+
+/* Start Package Page */
+
+/* Package Nav List */
+.package .package-list{margin-bottom: 20px}
+.package ul.nav-tabs{
+    list-style: none;
+    border:1px solid #ccc;
+    text-align: center;
+    padding: 0
+}
+.package ul.nav-tabs li{padding: 11px;font-size: 20px;width: 100%}
+.package ul.nav-tabs li.active{border-left: 5px solid BROWN;border-right: 5px solid BROWN;background: lightyellow}
+.package ul.nav-tabs li:not(:last-child){border-bottom: 1px solid #ccc}
+.package ul.nav-tabs li:hover{border-left: 5px solid #666;border-right: 5px solid #666;background: #eee}
+.package ul.nav-tabs li a{
+    font-size: 14px;
+    font-weight: bold;
+    color:#333;
+    padding: 3px;
+    border: none;
+
+}
+.package ul.nav-tabs li a:hover,
+.package ul.nav-tabs li.active a{border: none;background: none}
+
+/* Package Tab Content */
+.package .tab-content .tab-pane h3{
+    border: 1px solid BROWN;
+    background: lightyellow;
+    width:80%;
+    margin:0 auto;
+    color:#333;
+    padding: 10px
+}
+.package .tab-content .tab-pane p:first-of-type{ color:brown;font-weight: bold;font-size: 19px}
+.package .tab-content .tab-pane ul{font-size: 19px;font-weight: bold}
+.package .tab-content .tab-pane ul li{margin-left:100px}
+.package .tab-pane span{color:#FF8C00}
+.package .tab-content .tab-pane p:last-of-type{
+    border:2px dashed red;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    color: red;
+    font-size: 20px;
+}
+.package .tab-content .tab-pane button{
+    background:chocolate;
+    font-size: 18px;
+    color:#fff;
+    padding: 5px 40px;
+}
+.package .tab-content .tab-pane button:hover{background: orangered}
+
+/* Start Subscription Section */
+.subscription li{
+    min-height: 145px;
+    border-radius: 10px;
+    opacity: .4;
+    transition: opacity .5s ease-in-out;
+    border:1px solid orange
+}
+.subscription li{padding: 20px}
+.subscription li:hover,
+.subscription li:focus{opacity: 1}
+.subscription a{font-size: 20px}
+.subscription a:hover{text-decoration: none}
+.subscription a p{font-size: 20px}
+.subscription .offer p:last-of-type{font-size:14px;color: red}
+.selected{opacity: 1 !important}
+/* End Subscription Section */
+
+/* Start Payment Methods */
+.payment-method .methods div{
+    border:1px solid orange;
+    border-radius: 10px;
+    opacity: .4;
+    transition: opacity .5s ease-in-out
+}
+.payment-method .methods div span{color:#333;font-size: 16px;font-weight: bold}
+.payment-method .methods{padding: 20px}
+.payment-method .methods div:hover{opacity: 1}
+/* End Payment Methods */
+
+/* AhlyBank Modal */
+.ahlyBank ul{list-style:circle}
+.ahlyBank ul li{font-size: 16px;line-height: 2}
+.ahlyBank button:first-of-type{margin-left: 10px}
+.ahlyBank button:last-of-type{margin-right: 10px}
+
+/* Distributor Modal */
+.distributor h3{color: #ff8c00}
+.distributor .row:not(:last-child){border-bottom: 1px dashed #ff8c00}
+/* End Package Page */
+
+/* Social Section */
+
+/* login Section */
+.login-section{padding: 10% 0}
+.login-section .panel-heading{background: none;padding: 20px 10px}
+.login-section .panel-heading h4{color:#222}
+.login-section .panel-body {padding-left:70px;text-align: right}
+.login-section .form-group .control-label{font-weight: normal;text-align: right;color:#222}
+.login-section .btn-default{padding: 7px 30px}
+.login-section .signIn-help{border:1px solid #dadada;border-radius: 6px}
+.login-section .signIn-help div{padding: 30px 20px}
+.login-section .signIn-help div:first-child{border-bottom: 1px dashed #dadada}
+.login-section .signIn-help p{font-weight: bold}
+
+/* user Page */
+
+/* nav Tabs */
+.user-nav-list .nav-tabs{border: none}
+.user-nav-list .nav-tabs>li.active>a,
+.user-nav-list .nav-tabs>li.active>a:focus{background: #808080;color:#fff;border-radius: 4px}
+
+.user-nav-list li a:hover{background: #eee}
+/* Start Home Tab */
+/* Alerts section */
+.user .alerts .points{
+    background:#90ee90;
+    padding:20px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center
+}
+.user .alerts .points  a{color:#316431}
+.user .alerts .points a span{font-weight: bold}
+.user .alerts .my-points {
+    background:#ff8c00;
+    padding: 35px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center
+}
+.user .alerts .my-points a{color:#fff; font-size: 17px}
+
+/* User Info Section */
+.user .user-info{text-align: center;font-size: 14px}
+.user .user-info h4{color:#333}
+.user .user-info p{color:#800000}
+.user .user-info p span{font-weight: bold}
+
+/* Current Subscribtion & Past Subscription */
+.user .current-subscription,
+.user .past-subscription{padding:10px 40px}
+
+.user table{color:#333}
+.user caption{color:#FF8C00}
+/* End Home Tab */
+
+/* Start Active Subscription Tab */
+.user .subscription-content h4{padding-bottom: 20px}
+.user .subscription-content label{text-align: right}
+/* End Active Subscription Tab */
+
+/* Start Confirm Number Tab */
+.user .confirm-content select,
+.user .confirm-content input{min-height: 40px}
+.hide-element{display:none}
+/* End Confirm Number Tab */
+
+/* Start Club User*/
+.user .user-club .my-points{color:#fff}
+.user .user-club .points span,
+.user .user-club .my-points span,
+.user .user-club .new-user span{font-size: 17px}
+.user .user-club .points a,
+.user .user-club .my-points a,
+.user .user-club .new-user a{display: block;margin-top: 30px;font-size: 14px}
+.user .user-club .points,
+.user .user-club .my-points,
+.user .user-club .new-user{min-height: 175px;margin-bottom: 10px}
+.user .new-user{
+    background: #add8e6;
+    color:darkblue;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px
+}
+/* End Club User*/
+
+/* Start Product List */
+.product-list{margin: 3% 0}
+.product-list .item{
+    box-shadow: 1px 1px 10px #ddd;
+    overflow: hidden;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: #fff
+}
+.package-list .item .item-img{outline: none}
+.product-list .item img{max-height: 180px;width: 100%}
+.product-list .slick-arrow{font-size: 19px}
+.product-list .fa-chevron-left{position: absolute;left: -20px;top:50%}
+.product-list .fa-chevron-right{position: absolute;right: -20px;top:50%}
+.product-list .item-info h3 a{color: #333;padding-right:25px}
+.product-list .item-info p{color:#7b7b7b}
+.product-list .item .item-price-info{border-right: 1px solid #ddd;padding: 40px 0}
+.product-list .price{font-weight: bold;font-size: 19px}
+.product-list .n-sales{color:#aaa}
+.product-list .buy-preview-btns{margin-top: 40px}
+.preview{
+    border-color: #FF8C00;
+    color:#FF8C00;
+    background: #fff;
+    padding-left:40px;
+    padding-right:40px;
+    transition: color .5s ease-in-out , background .5s ease-in-out
+}
+.preview:hover{background: #79b530;color:#fff}
+.product-list .buy {
+    border-color: #e6e6e6;
+    background:#fff;
+    color:#e6e6e6;
+    transition: color .5s ease-in-out , background .5s ease-in-out
+}
+.product-list .buy:hover{background: #e6e6e6;color:#fff}
+/* End Product List */
+.product-section .product-img img{width: 100%}
+.product-section .product-img .slider-for{margin-bottom: 10px;height:300px}
+.product-section .product-img .slider-for img{
+    border:1px solid #ddd;
+    padding:6px;
+    border-radius: 5px;
+    height:300px;
+}
+.product-section .product-img .slider-nav {max-height: 50px}
+.product-section .product-img .slider-nav div{margin: 5px}
+.product-section .product-img .slider-nav img{
+    padding:6px;
+    min-height:100px;
+    max-height: 100px;
+    overflow: hidden;
+    border:1px solid #ddd;
+    border-radius: 5px;
+}
+.product-section .product-info .product-title{font-weight: bold;font-size: 17px}
+.product-section .product-info .product-price{font-weight: bold;font-size:29px}
+.product-section .features{overflow: hidden;}
+.product-section .features-title{background: #f5f5f5;margin-top:20px}
+.product-section .features-title .panel-body{padding:10px 15px}
+.product-section .features-title h4{margin: 0}
+.product-section .feature{padding:20px 5px;border-radius: 5px;margin-bottom: 10px}
+.product-section .feature:not(:last-child){border-right: #000}
+.product-section .feature-icon{color:#7089ff;font-size: 40px}
+.product-section .feature-title h4{font-weight: bold;font-size: 16px}
+.product-section .feature-description p{color:#a7a7a7;font-size: 13px}
+.product-section .product-description{background: #f7f7f7;padding: 20px}
+.product-section .product-description .features-list-title{margin-top: 40px;margin-bottom: 2px solid #000}
+.product-section .product-description .features-list{list-style: circle}
+.product-section .product-description .features-list li{padding: 5px}
+.product-section .related-products{padding: 20px 10px}
+.product-section .related-products .rel-product{height: 260px;padding:20px;overflow: hidden}
+.product-section .related-products .rel-product:not(:last-child){border-left: 1px solid #e6e6e6 !important}
+.product-section .related-products .rel-product-img{margin-bottom: 20px}
+.product-section .related-products .rel-product-info{background:#fff;transform: translateY(30px);transition: transform .5s ease-in-out}
+.product-section .related-products .rel-product:hover .rel-product-info{transform: translateY(0px)}
+.product-section .related-products p a{color:#333}
+.product-section .related-products span{font-weight: bold;font-size: 19px}
+.product-section .related-products .rel-product-preview a{color: #79b530;text-decoration: none}
+/* Start Product Page */
+
+/* Start Courses Page */
+
+/* Quick Info Section */
+.course-quick-info .panel-body{padding:20px }
+.course-quick-info li{line-height: 1.7}
+.course-quick-info .panel-body h3,
+.course-quick-info .panel-body h5{font-weight:bold;margin-bottom: 20px}
+.course-quick-info .panel-body img{padding-left: 10px}
+.course-video{margin-bottom: 40px}
+.course-info .tab-pane{padding: 20px 10px}
+.course-info .tab-pane li{line-height: 1.7}
+/* End Courses Page */
+
+/* Start Footer */
+.quick-links{background: #f4f4f4;padding: 30px}
+.quick-links h4 a{color: #333;text-decoration: none;font-weight: bold}
+.quick-links li a{color:#979797}
+.bottom-footer{background-color: #e2e2e2;padding-top: 10px;padding-bottom: 10px}
+.social-links ul{margin:0}
+.social-links ul li{
+    display: inline-block;
+    padding:7px;
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+    background: #c7c7c7
+}
+.social-links ul li a{color:#818181;font-size: 17px}
+/* End Footer */

@@ -1,0 +1,56 @@
+/* Start Media Query */
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    /*navbar*/
+
+    .navbar-header{width: 103% !important;}
+    .navbar .navbar-brand{width: 220px !important}
+    .navbar .navbar-brand img{width: 100%!important}
+    /* Login */
+    .login-section .panel-body{
+        padding-left: 15px
+    }
+    /* Confirm Password tab  User Page */
+    .user .confirm-content button {margin-top: 20px}
+    .backgroundShap{display: none !important}
+    .courses .course{width:98%; margin: 20px auto;}
+    .login-section .loginSectionForm,
+    .login-section .helpSection{width: 100%}
+    .report{width:100% ;margin:5px 0}
+    .report .report-title{width: 80%}
+    .report .report-img{width:20%}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    /*navbar*/
+
+    .navbar-header{width: 104% !important}
+    /* Login */
+    .login-section .panel-body{
+        padding-left: 15px
+    }
+    .backgroundShap{display: none!important}
+    .login-section .loginSectionForm,
+    .login-section .helpSection{width: 100%}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Home Tab User Page*/
+    .user .user-club .points,
+     .user .user-club .my-points,
+     .user .user-club .new-user{min-height: 211px}
+
+     .backgroundShap{display: none!important}
+     .login-section .loginSectionForm,
+     .login-section .helpSection{width: 90%}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Home Tab User Page*/
+    .user .user-club .points,
+     .user .user-club .my-points,
+     .user .user-club .new-user{min-height: 211px}
+}
